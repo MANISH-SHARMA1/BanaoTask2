@@ -1,0 +1,37 @@
+.updatePost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .post-container {
+    margin-top: 16px;
+
+    .img-container {
+      width: 500px;
+
+      .post-img {
+        width: 100%;
+        aspect-ratio: 16/9;
+      }
+    }
+
+    .bottom-part {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 16px;
+
+      input {
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: 1px solid var(--border-color);
+      }
+      input:focus {
+        outline: none;
+      }
+
+      .btn-primary {
+        width: fit-content;
+      }
+    }
+  }
+}
